@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coffee.Machine.Interfaces\Coffee.Machine.Interfaces.csproj" />
+    <ProjectReference Include="..\Coffee.Machine.Logic\Coffee.Machine.Logic.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
