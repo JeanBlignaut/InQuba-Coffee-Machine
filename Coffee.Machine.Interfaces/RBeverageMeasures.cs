@@ -1,0 +1,1 @@
+public record RBeverageMeasures (byte BeanCount, byte MilkUnits, bool UseMilk);
