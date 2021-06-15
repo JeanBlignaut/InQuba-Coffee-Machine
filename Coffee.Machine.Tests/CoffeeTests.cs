@@ -3,11 +3,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Coffee.Machine.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CoffeeTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestBeans()
         {
+            Assert.IsTrue(false);
         }
     }
 }

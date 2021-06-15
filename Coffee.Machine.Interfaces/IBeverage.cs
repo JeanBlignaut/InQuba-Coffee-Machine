@@ -2,24 +2,23 @@ namespace Coffee.Machine.Interfaces
 {
     public interface IBeverage
     {
-        IMachineState MachineState { get;}
-        byte BeanCount { get; }
-        byte? MilkUnits { get; }
+        IMachineState MachineState { get; init;}
+        RBeverageMeasures BeverageMeasures { get; init; }
 
         virtual void Prepare(){
             ConsumeBeans();
-            if (MilkUnits.HasValue){
-                ConsumeMilk(MilkUnits.Value);
+            if (BeverageMeasures.UseMilk){
+                ConsumeMilk();
             }
         }
 
         virtual void ConsumeBeans(){
-            MachineState.ReduceBeanCountBy(BeanCount);
+            MachineState.ReduceBeanCountBy(BeverageMeasures.BeanCount);
         }
 
-        virtual void ConsumeMilk(byte milkUnits)
+        virtual void ConsumeMilk()
         {
-            MachineState.ReduceMilkUnitsBy(milkUnits);
+            MachineState.ReduceMilkUnitsBy(BeverageMeasures.MilkUnits);
         }
     }
 }
