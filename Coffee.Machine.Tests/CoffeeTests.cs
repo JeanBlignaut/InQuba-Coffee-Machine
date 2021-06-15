@@ -35,6 +35,8 @@ namespace Coffee.Machine.Tests
 
             machineState.MilkUnits = 2;
 
+            coffee.Prepare();
+
             Assert.AreEqual(0, machineState.BeanCount);
             Assert.AreEqual(0, machineState.MilkUnits);
 
