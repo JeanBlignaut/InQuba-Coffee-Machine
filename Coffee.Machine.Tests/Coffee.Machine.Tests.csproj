@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Coffee.Machine.Logic\Coffee.Machine.Logic.csproj" />
+    <ProjectReference Include="..\Coffee.Machine.Interfaces\Coffee.Machine.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

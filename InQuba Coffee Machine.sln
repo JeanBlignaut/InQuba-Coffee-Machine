@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Machine.Interfaces",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Machine.Logic", "Coffee.Machine.Logic\Coffee.Machine.Logic.csproj", "{8764920F-AD5D-47CE-AE79-7306AC917ED7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.Machine.Tests", "Coffee.Machine.Tests\Coffee.Machine.Tests.csproj", "{9F090DB5-27CE-4020-B7EC-D0787DB4E233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{8764920F-AD5D-47CE-AE79-7306AC917ED7}.Release|x64.Build.0 = Release|Any CPU
 		{8764920F-AD5D-47CE-AE79-7306AC917ED7}.Release|x86.ActiveCfg = Release|Any CPU
 		{8764920F-AD5D-47CE-AE79-7306AC917ED7}.Release|x86.Build.0 = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|x64.Build.0 = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|x64.ActiveCfg = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|x64.Build.0 = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F090DB5-27CE-4020-B7EC-D0787DB4E233}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
