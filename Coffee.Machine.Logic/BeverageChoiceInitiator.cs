@@ -37,7 +37,7 @@ namespace Coffee.Machine.Logic
             //switch (beverageChoice)
             //{
             //    case BeverageChoices.Coffee:
-            //        return new Coffee(MachineState, (bool)additionalUserPrompt());-
+            //        return new Coffee(MachineState, (bool)additionalUserPrompt());
             
             //    case BeverageChoices.Cappuccino:
             //        return new Cappuccino(MachineState, additionalUserPrompt());
