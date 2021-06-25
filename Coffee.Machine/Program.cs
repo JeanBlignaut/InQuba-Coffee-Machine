@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coffee.Machine.Interfaces;
+using System;
 
 namespace Coffee.Machine
 {
@@ -6,7 +7,14 @@ namespace Coffee.Machine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome what would you like:");
+            Console.WriteLine();
+            foreach (var beverage in Enum.GetValues(typeof(BeverageChoices))) {
+                Console.WriteLine($"{(int)beverage} {beverage}");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Please enter the number of your beverage choice>");
+            Console.ReadLine();
         }
     }
 }

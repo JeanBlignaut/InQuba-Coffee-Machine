@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Coffee.Machine.Interfaces\Coffee.Machine.Interfaces.csproj" />
     <ProjectReference Include="..\Coffee.Machine.Logic\Coffee.Machine.Logic.csproj" />
   </ItemGroup>

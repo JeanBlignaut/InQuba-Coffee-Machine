@@ -1,3 +1,5 @@
+using System;
+
 namespace Coffee.Machine.Interfaces
 {
     public interface IMachineState
