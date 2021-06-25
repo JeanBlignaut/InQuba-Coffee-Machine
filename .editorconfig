@@ -1,0 +1,3 @@
+﻿[*.cs]
+
+csharp_using_directive_placement=outside_namespace:suggestion
